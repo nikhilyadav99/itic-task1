@@ -1,0 +1,10 @@
+TASK1
+1. installed python 3.7 on the machine.
+2. created virtual environment by installing virtualenv with pip. the code for installing virtual environment is "pip install virtualenv"
+3. created a directory called test(virtual environment) in the desktop.
+4. virtaul environment is activated evertime with the help of command. "source test/scripts/activate"
+5. virtaul envvironment is deactivated by typing just "deactivate"
+6. installed jupyter notebook with pip. "pip install jupyter notebook"
+7. downloaded the dataset from kaggle. imported the dataset on to jupyter notebook using panndas. "import pandas as pd" "pd.read_csv('data.csv')"
+8. imported matplotlib for plotting the barchart for the column. "import matplotlib.pyplot as plot" 
+9. plotted the graph for the column Y i.e., "quality rating" as it shows the number of times LQ_CLOSE, LQ_EDIT and HQ have been repeated in the dataset with the help of code "data['Y'].value_counts().plot(kind='bar')"
